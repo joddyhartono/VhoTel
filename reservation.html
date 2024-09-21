@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>vHoTel</title>
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+        <!-- Icons -->
+        <script src="https://unpkg.com/feather-icons"></script>
+
+        <!-- Link CSS -->
+        <link rel="stylesheet" href="style.css">
+
+        <!-- Link JavaScript -->
+        <script defer src="script.js"></script>
+    </head>
+
+    <body>
+      
+        <!-- Navbar -->
+        <nav class="navbar">
+            <a href="index.html" class="header-logo">
+                <img src="Picture/image.jpg" alt="Logo" id="logo">
+            </a>
+
+            <div class="navbar-nav">
+                <a href="index.html" class="home">Home</a>
+                <a href="about.html" class="about">About Us</a>
+                <a href="rooms.html" class="rooms">Our Rooms</a>
+                <a href="facilities.html" class="facilities">Our Facilities</a>
+                <a href="reservation.html" class="reservation">Reservation</a>
+            </div>
+            
+            <div class="book-now-rectangle">
+                <a href="reservation.html" class="book">Book Now</a>
+            </div>
+            
+            <div class="contact-rectangle">
+                <div class="contact">Contact Us</div>
+            </div>  
+        </nav>
+
+        <!-- Content -->
+        <div class="banner-container-registration">
+            <div class="content-registration">
+                <h2>Hotel Reservation Form</h2>
+                <p>Please fill in the form below with your personal details, preffered dates, and room preferences. Our team is excited to assist you in creating a memorable experience during your stay.</p>
+            </div>
+
+            <section class="container-form">
+                <form action="#" onsubmit="onSubmitForm(event)" class="form">
+                    <div class="input-box">
+                        <label for="username">Full Name</label>
+                        <input type="text" placeholder="Enter your name" name="username" id="usernameInput">
+                    </div>
+    
+                    <div class="input-box">
+                        <label for="email">Email Address</label>
+                        <input type="text" placeholder="Enter your email" name="email" id="emailInput">
+                    </div>
+    
+                    <div class="input-box">
+                        <label for="phone">Phone Number</label>
+                        <input type="text" placeholder="Enter your phone number" name="phone" id="phoneInput">
+                    </div>
+    
+                    <div class="input-box">
+                        <label for="people">No. of People</label>
+                        <div class="select-box">
+                            <select id="peopleInput" name="people">
+                                <option hidden>No. of People</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                            </select>
+                        </div>
+                    </div>
+    
+                    <div class="input-box">
+                        <label for="room">Type of Rooms</label>
+                        <div class="select-box">
+                            <select id="roomInput" name="room">
+                                <option hidden>Type of Rooms</option>
+                                <option>Standard Room</option>
+                                <option>Deluxe Room</option>
+                                <option>Suite</option>
+                            </select>
+                        </div>
+                    </div>
+    
+                    <div class="column">
+                        <div class="input-box">
+                            <label for="checkin">Check-in Date</label>
+                            <input type="date" name="checkin" id="checkinInput">
+                        </div>
+    
+                        <div class="input-box">
+                            <label for="checkout">Check-out Date</label>
+                            <input type="date" name="checkout()" id="checkoutInput">
+                        </div>
+                    </div>
+
+                    <button>SUBMIT</button>
+
+                    <p id="errorMessage"></p>
+
+                </form>
+
+            </section>
+
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+              <h2>vHoTel</h2>
+              <h3>A Haven of Tranquility and Luxury</h3>
+            </div>
+      
+            <div class="footer-content">
+              <span>Contact Us</span>
+              <span>STAY CONNECTED</span>
+              <div class="follow">
+                <i data-feather="twitter"></i>
+                <i data-feather="facebook"></i>
+                <i data-feather="instagram"></i>
+              </div>
+            </div>
+      
+            <div class="footer-content">
+              <span>Privacy Policy</span>
+              <span>Terms and Condition</span>
+            </div>
+      
+            <div class="copyright">Copyright &copy; 2023 All Rights Reserved by vHoTel</div>
+          </footer>
+
+        <script>
+            feather.replace()
+        </script>
+            
+    </body>
+</html>

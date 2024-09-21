@@ -1,0 +1,1103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+/* Navbar */
+
+.navbar{
+    padding: 0rem 4%;
+    line-height: 1.3725rem;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.125rem;
+    font-weight: 600;
+    font-style: normal;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    background-color: white;
+}
+
+.navbar .header-logo #logo{
+    height: 2.5rem;
+    top: 1rem;
+    position: relative;
+    display: block;
+}
+
+.navbar .navbar-nav a{
+    margin: 0 5rem;
+    top: 1rem;
+    position: relative;
+    display: inline-block;
+    color: #0000008A;
+}
+
+.navbar .book-now-rectangle{
+    width: 9.375rem;
+    top: 1rem;
+    padding: 0.5rem;
+    display: inline-block;
+    position: relative;
+    border: 0.0625rem solid #98AEC5;
+    border-radius: 0.3125rem;
+    transition: background-color 0.3 ease;
+}
+
+.navbar .book{
+    position: relative;
+    color: #98AEC5;
+}
+
+.navbar .contact-rectangle{
+    width: 9.375rem;
+    top: 1rem;
+    padding: 0.5rem;
+    position: relative;
+    background-color: #98AEC5;
+    color: white;
+    border-radius: 0.3125rem;
+}
+
+.navbar .navbar-nav a:hover{
+    color: black;
+}
+
+.navbar .book-now-rectangle:hover {
+    background-color: #7899A8;
+    color: white;
+}
+
+.navbar .book-now-rectangle:hover .book {
+    color: white;
+}
+
+/* Home */
+
+.banner-container-home{
+    height: 90vh;
+    margin-top: 5rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    margin-bottom: 3rem;
+    border-radius: 0.625rem;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Picture/Suite, Aman Tokyo, Japan_2.jpg") no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.banner-container-home .promo-banner-home{
+    bottom: 1.25rem;
+    padding: 9.375rem;
+}
+
+.banner-container-home .promo-banner-home .content-home{
+    position: relative;
+    text-align: center;
+}
+
+.banner-container-home .promo-banner-home .content-home h2{
+    margin-bottom: 0.625rem;
+    font-size: 3.75rem;
+    color: white;
+}
+
+.banner-container-home .promo-banner-home .content-home p{
+    font-size: 1.875rem;
+    font-weight: 600;
+    color: white;
+}
+
+.book-now-button{
+    bottom: 2rem;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+.book-now-button .book{
+    padding: 1rem 9rem;
+    display: inline-block;
+    font-size: 2.5rem;
+    font-weight: 700;
+    border-radius: 0.3125rem;
+    background-color: #98AEC5;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.book-now-button .book:hover{
+    background-color: #7899A8;
+}
+
+.welcome-container{
+    padding: 2rem;
+    height: 45vh;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    margin-bottom: 3rem;
+    border-radius: 0.625rem;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+    background-color: #98AEC5;
+    color: white;
+}
+
+.welcome-container .welcome-banner h2{
+    margin-bottom: 1rem;
+    font-size: 3.125rem;
+    font-weight: 700;
+}
+
+.welcome-container .welcome-banner p{
+    font-size: 1.875rem;
+    font-weight: 600;
+}
+
+/* About Us */
+
+.banner-container-about{
+    height: 90vh;
+    bottom: 1.25rem;
+    margin-top: 6.25rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    margin-bottom: 3rem;
+    border-radius: 0.625rem;
+    padding: 9.375rem;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Picture/Amantokyo.jpg") no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.banner-container-about .content-about{
+    position: relative;
+    text-align: center;
+}
+
+.banner-container-about .content-about h2{
+    margin-bottom: 0.625rem;
+    font-size: 3.75rem;
+    color: white;
+}
+
+.banner-container-about .content-about p{
+    font-size: 1.875rem;
+    font-weight: 600;
+    color: white;
+}
+
+/* History */
+
+.history-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.history-banner{
+    padding: 2rem;
+    height: 80vh;
+    width: 44%;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+    background-color: #98AEC5;
+    color: white;
+}
+
+.history-banner-container{
+    max-width: 88%;
+    padding-top: 14rem;
+}
+
+.history-banner h4{
+   font-size: 1.75rem;
+}
+
+.history-tagline{
+    padding-top: 21rem;
+    padding-left: 15rem;
+}
+
+.history-tagline h2{
+    font-size: 3.125rem;
+    color: #98AEC5;
+}
+
+/* Story */
+
+.story-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.story-banner{
+    height: 80vh;
+    width: 44%;
+    margin-left: 23.8rem;
+    margin-bottom: 3rem;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+    background-color: #98AEC5;
+    color: white;
+}
+
+.story-banner-container{
+    max-width: 88%;
+    padding-top: 16rem;
+}
+
+.story-banner h4{
+    font-size: 1.75rem;
+}
+
+.story-tagline{
+    padding-top: 21rem;
+    padding-left: 28rem;
+}
+
+.story-tagline h2{
+    font-size: 3.125rem;
+    color: #98AEC5;
+}
+
+/* Our Rooms */
+
+.banner-container-rooms{
+    height: 90vh;
+    bottom: 1.25rem;
+    margin-top: 6.25rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    margin-bottom: 3rem;
+    padding: 9.375rem;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.banner-container-rooms .content-rooms{
+    position: relative;
+    text-align: center;
+}
+
+.banner-container-rooms .content-rooms h2{
+    margin-bottom: 0.625rem;
+    font-size: 3.75rem;
+    color: #98AEC5;
+}
+
+.banner-container-rooms .content-rooms p{
+    font-size: 1.875rem;
+    font-weight: 600;
+    color: #98AEC5;
+}
+
+/* Standard Room */
+
+.standard-room-container{
+    width: 69%;
+    height: 100%;
+    margin-top: -25rem;
+    margin-left: 18.5rem;
+    margin-bottom: 15rem;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 0.3125rem 1.25rem rgba(0, 0, 0, 0.5);
+}
+
+.standard-room-container img{
+    width: 100%;
+}
+
+.content-standard-room{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-standard-room .standard-room-tagline h3{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+    font-size: 1.875rem;
+    font-weight: 600;
+    color: #98AEC5;
+}
+
+.dollar-and-book-now-container{
+    margin-left: 50rem;
+    margin-top: 1.5rem;
+}
+
+.dollar-and-book-now-container .dollar-tagline h3{
+    margin-left: 3.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.dollar-and-book-now-container .book-now-reservation{
+    width: 9.375rem;
+    top: 1rem;
+    padding: 0.5rem;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    background-color: #98AEC5;
+    border-radius: 0.3125rem;
+}
+
+.book-now-reservation a{
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+}
+
+.book-now-reservation:hover{
+    background-color: #7899A8;
+    color: white;
+}
+
+.standard-room-container p{
+    margin-bottom: 3rem;
+    padding-left: 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* Deluxe Room */
+
+.deluxe-room-container{
+    width: 69%;
+    height: 100%;
+    margin-top: -5rem;
+    margin-left: 18.5rem;
+    margin-bottom: 15rem;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 0.3125rem 1.25rem rgba(0, 0, 0, 0.5);
+}
+
+.slider-wrapper{
+    position: relative;
+    max-width: 100%;
+}
+
+.slider{
+    display: flex;
+    overflow-x: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+}
+
+.slider img{
+    width: 100%;
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+
+.slider-nav{
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.slider-nav a{
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover{
+    opacity: 1;
+}
+
+.content-deluxe-room{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-deluxe-room .deluxe-room-tagline h3{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+    font-size: 1.875rem;
+    font-weight: 600;
+    color: #98AEC5;
+}
+
+.dollar-and-book-now-container2{
+    margin-left: 53rem;
+    margin-top: 1.5rem;
+}
+
+.dollar-and-book-now-container2 .dollar-tagline2 h3{
+    margin-left: 3.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.dollar-and-book-now-container2 .book-now-reservation2{
+    width: 9.375rem;
+    top: 1rem;
+    padding: 0.5rem;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    background-color: #98AEC5;
+    border-radius: 0.3125rem;
+}
+
+.book-now-reservation2 a{
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+}
+
+.book-now-reservation2:hover{
+    background-color: #7899A8;
+    color: white;
+}
+
+.deluxe-room-container p{
+    margin-bottom: 3rem;
+    padding-left: 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* Suite Room */
+
+.suite-room-container{
+    width: 69%;
+    height: 100%;
+    margin-top: -5rem;
+    margin-left: 18.5rem;
+    margin-bottom: 7rem;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 0.3125rem 1.25rem rgba(0, 0, 0, 0.5);
+}
+
+.slider-wrapper2{
+    position: relative;
+    max-width: 100%;
+}
+
+.slider2{
+    display: flex;
+    aspect-ratio: 16 / 9;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+}
+
+.slider2 img{
+    width: 100%;
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+
+.slider-nav2{
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.slider-nav2 a{
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+}
+
+.slider-nav2 a:hover{
+    opacity: 1;
+}
+
+.content-suite-room{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-suite-room .suite-room-tagline h3{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+    font-size: 1.875rem;
+    font-weight: 600;
+    color: #98AEC5;
+}
+
+.dollar-and-book-now-container3{
+    margin-left: 62rem;
+    margin-top: 1.5rem;
+}
+
+.dollar-and-book-now-container3 .dollar-tagline3 h3{
+    margin-left: 3.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.dollar-and-book-now-container3 .book-now-reservation3{
+    width: 9.375rem;
+    top: 1rem;
+    padding: 0.5rem;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    background-color: #98AEC5;
+    border-radius: 0.3125rem;
+}
+
+.book-now-reservation3 a{
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+}
+
+.book-now-reservation3:hover{
+    background-color: #7899A8;
+    color: white;
+}
+
+.suite-room-container p{
+    margin-bottom: 3rem;
+    margin-right: 4rem;
+    padding-left: 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* Our Facilities */ 
+
+.banner-container-facilities{
+    height: 90vh;
+    bottom: 1.25rem;
+    margin-top: 6.25rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    margin-bottom: 3rem;
+    padding: 9.375rem;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.banner-container-facilities .content-facilities{
+    position: relative;
+    text-align: center;
+}
+
+.banner-container-facilities .content-facilities h2{
+    margin-bottom: 0.625rem;
+    font-size: 3.75rem;
+    color: #98AEC5;
+}
+
+.banner-container-facilities  .content-facilities p{
+    font-size: 1.875rem;
+    font-weight: 600;
+    color: #98AEC5;
+}
+
+/* Spa and Wellness */
+
+.spa-container{
+    width: 69%;
+    height: 100%;
+    margin-top: -25rem;
+    margin-left: 18.5rem;
+    margin-bottom: 15rem;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 0.3125rem 1.25rem rgba(0, 0, 0, 0.5);
+}
+
+.spa-container img{
+    width: 100%;
+}
+
+.spa-container .content-spa h3{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+    font-size: 1.875rem;
+    font-weight: 600;
+    color: #98AEC5;
+}
+
+.spa-container .content-spa h4{
+    margin-bottom: 3rem;
+    padding-left: 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* Gym */
+
+.gym-container{
+    width: 69%;
+    height: 100%;
+    margin-top: -5rem;
+    margin-left: 18.5rem;
+    margin-bottom: 15rem;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 0.3125rem 1.25rem rgba(0, 0, 0, 0.5);
+}
+
+.gym-container img{
+    width: 100%;
+}
+
+.gym-container .content-gym h3{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+    font-size: 1.875rem;
+    font-weight: 600;
+    color: #98AEC5;
+}
+
+.gym-container .content-gym h4{
+    margin-bottom: 3rem;
+    padding-left: 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* Pools */
+
+.pools-container{
+    width: 69%;
+    height: 100%;
+    margin-top: -5rem;
+    margin-left: 18.5rem;
+    margin-bottom: 7rem;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 0.3125rem 1.25rem rgba(0, 0, 0, 0.5);
+}
+
+.pools-container img{
+    width: 100%;
+}
+
+.pools-container .content-pools h3{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+    font-size: 1.875rem;
+    font-weight: 600;
+    color: #98AEC5;
+}
+
+.pools-container .content-pools h4{
+    margin-bottom: 3rem;
+    padding-left: 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* Registration */
+
+.banner-container-registration{
+    height: 225vh;
+    bottom: 1.25rem;
+    margin-top: 6.25rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    margin-bottom: 3rem;
+    border-radius: 0.625rem;
+    padding: 9.375rem;
+    display: block;
+    position: relative;
+    align-items: flex-start;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Picture/Aman\ Tokyo\,\ Japan\ -\ Skyline\ Views\ at\ Dusk_High\ Res_684.jpg") no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.banner-container-registration .content-registration{
+    position: relative;
+    text-align: center;
+}
+
+.banner-container-registration .content-registration h2{
+    margin: 0.625rem;
+    font-size: 3.75rem;
+    color: white;
+}
+
+.banner-container-registration .content-registration p{
+    font-size: 1.875rem;
+    font-weight: 600;
+    color: white;
+}
+
+.container-form{
+    width: 100%;
+    max-width: 36.9375rem;
+    margin-top: 10rem;
+    margin-left: 24rem;
+    padding: 1.5625rem;
+    border-radius: 0.9375rem;
+    box-shadow: 0 0 0.3125rem #0000008A;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    box-sizing: border-box;
+}
+
+.container-form .form{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.form .input-box{
+    width: 100%;
+    margin-top: 1.25rem;
+}
+
+.input-box label{
+    color: black;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.form :where(.input-box input, .select-box){
+    height: 3.125rem;
+    width: 100%;
+    margin-top: 0.5rem;
+    padding: 0 0.9375rem;
+    border: 0.0625rem solid #0000008A;
+    border-radius: 0.3125rem;
+    position: relative;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #0000008A;
+}
+
+.form .column{
+    display: flex;
+    column-gap: 0.9375rem;
+}
+
+.select-box select{
+    height: 100%;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #0000008A;
+}
+
+.form button{
+    height: 3.4375rem;
+    width: 100%;
+    margin-top: 1.875rem;
+    border-radius: 0.3125rem;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #98AEC5;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.form button:hover{
+    background-color: #7899A8;
+}
+
+#errorMessage{
+    color: rgb(255, 0, 64);
+}
+
+/* Footer */
+
+footer{
+    height: 45vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #98AEC5;
+    color: white;
+}
+  
+footer .footer-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 4rem auto 5rem 5rem;
+}
+  
+footer .footer-content h2{
+    font-size: 3.75rem;
+    max-width: 62.5rem;
+    margin-bottom: 2rem;
+}
+  
+footer .footer-content h3{
+    font-size: 3rem;
+}
+  
+footer .footer-content span{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0 0 2rem 0;
+}
+  
+footer .footer-content .follow{
+    margin: 0 1rem 0 0;
+}
+  
+footer .copyright{
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.375rem;
+    color: white;
+}
+
+/* Responsive */
+
+/* Desktop */
+@media screen and (max-width: 1440px){
+    /* Font */
+    html{
+        font-size: 75%;
+    }
+
+    /* Home */
+    .banner-container-home{
+        height: 74.444vh;
+    }
+
+    .welcome-container{
+        height: 39.537vh;
+    }
+
+    .welcome-container .welcome-banner h2{
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .welcome-container .welcome-banner p{
+        margin-top: 3rem;
+    }
+
+    /* About Us */
+
+    .banner-container-about{
+        height: 74.444vh;
+    }
+
+    .history-banner{
+        height: 57.1296vh;
+    }
+
+    .history-banner-container{
+        padding-top: 16rem;
+    }
+
+    .history-tagline{
+        padding-top: 23rem;
+        padding-left: 15rem;
+    }
+    .story-banner{
+        height: 57.1296vh;
+    }
+
+    .story-banner-container{
+        padding-top: 18rem;
+    }
+
+    .story-tagline{
+        padding-top: 23rem;
+        padding-left: 28rem;
+    }
+
+    /* Our Rooms */
+    .banner-container-rooms{
+        height: 55vh;
+    }
+
+    /* Our Facilities */
+    .banner-container-facilities{
+        height: 55vh;
+    }
+
+    /* Registration */
+    .banner-container-registration{
+        height: 165vh;
+    }
+    /* Footer */
+
+    footer{
+        height: 31.66vh;
+    }
+    
+    footer .footer-content{
+        margin: 6rem auto 5rem 5rem;
+    }
+
+    footer .footer-content span{
+        margin: 0 0 3rem 0;
+    }
+
+    footer .footer-content .follow{
+        margin: 0 1.5rem 0 0;
+    }
+}
+
+/* Tablet */
+@media screen and (max-width: 768px){
+    /* Font */
+    html{
+        font-size: 40%;
+    }
+
+    /* Home */
+
+    .banner-container-home{
+        height: 46.8vh;
+    }
+
+    .welcome-container{
+        height: 22.5vh;
+    }
+
+    .welcome-container .welcome-banner h2{
+        margin-top: 3rem;
+        margin-bottom: -1rem;
+    }
+
+    .welcome-container .welcome-banner p{
+        margin-top: 3rem;
+    }
+
+    /* About Us */
+
+    .banner-container-about{
+        height: 46.8vh;
+    }
+
+    .history-banner{
+        height: 32vh;
+    }
+
+    .history-banner-container{
+        padding-top: 17rem;
+    }
+
+    .history-tagline{
+        padding-top: 25rem;
+        padding-left: 15rem;
+    }
+
+    .story-banner{
+        height: 32vh;
+    }
+
+    .story-banner-container{
+        padding-top: 19rem;
+    }
+
+    .story-tagline{
+        padding-top: 25rem;
+        padding-left: 28rem;
+    }
+
+    /* Our Rooms */
+    .banner-container-rooms{
+        height: 31vh;
+    }
+
+    /* Our Facilities */
+    .banner-container-facilities{
+        height: 31vh;
+    }
+
+    /* Registration */
+    .banner-container-registration{
+        height: 79vh;
+    }
+
+    /* Footer */
+
+    footer{
+        height: 22.5vh;
+    }
+    
+    footer .footer-content{
+        margin: 8rem auto 5rem 5rem;
+    }
+
+    footer .footer-content span{
+        margin: 0 0 4rem 0;
+    }
+
+    footer .footer-content .follow{
+        margin: 0 2rem 0 0;
+    }
+}
